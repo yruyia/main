@@ -15,9 +15,11 @@ public class selfIntroduction {
 		/*
 		* 自己紹介文を出力する処理
 		*/
-
+		//私の名前は山田　花子です。
 		System.out.println("私の名前は" + name + "です。");
+		//年齢は25歳です。
 		System.out.println("年齢は" + age + "歳です。");
+		//趣味は映画鑑賞です。
 		System.out.println("趣味は" + hobby + "です。");
 	}
 
