@@ -11,7 +11,6 @@ public class selfIntroduction {
 		// 趣味
 		String hobby = "映画鑑賞";
 
-
 		/*
 		* 自己紹介文を出力する処理
 		*/
