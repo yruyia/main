@@ -10,6 +10,7 @@ public class curriculum1_4 {
 	//長整数型
 	static long aLong;
 	//単精度浮動小数点型
+	
 	static float aFloat;
 	//倍精度浮動小数点型
 	static double aDouble;
