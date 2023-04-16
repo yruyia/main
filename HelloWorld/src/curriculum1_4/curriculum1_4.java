@@ -1,7 +1,7 @@
 package curriculum1_4;
 
 public class curriculum1_4 {
-	
+
 	// TODO 自動生成されたメソッド・スタブ
 	// Q1 下記9個をクラス変数として宣言のみしてください
 	//		・バイト型・短整数型・整数型・長整数型
@@ -104,9 +104,12 @@ public class curriculum1_4 {
 		// Q5 
 		// 次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
 		//「ハローJAVA43」と表示とさせたいのですが、意図通りに動きません。正しく動作するように修正してください。
+		//numに文字列20を代入
 		String num = "20";
+		//num1に23を代入
 		int num1 = 23;
-		System.out.println("ハローJAVA" + (num + String.valueOf(num1)));
+		//numを整数型に変換して出力
+		System.out.println("ハローJAVA" + (Integer.parseInt(num) + num1));
 	}
 
 }
