@@ -1,6 +1,15 @@
 package curriculum1_4;
 
 public class curriculum1_4 {
+	
+	// TODO 自動生成されたメソッド・スタブ
+	// Q1 下記9個をクラス変数として宣言のみしてください
+	//		・バイト型・短整数型・整数型・長整数型
+	// 	・単精度浮動小数点数型・倍精度浮動小数点数型
+	//   	・文字型・文字列型
+	//	 	・ブーリアン型 
+
+	//クラス変数として宣言
 	//バイト型
 	static byte aByte;
 	//短整数型
@@ -10,7 +19,6 @@ public class curriculum1_4 {
 	//長整数型
 	static long aLong;
 	//単精度浮動小数点型
-	
 	static float aFloat;
 	//倍精度浮動小数点型
 	static double aDouble;
@@ -20,15 +28,9 @@ public class curriculum1_4 {
 	static String aString;
 	//ブーリアン型
 	static boolean aBoolean;
+	//javaを実行するメソッド
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		// Q1 下記9個をクラス変数として宣言のみしてください
-		//		・バイト型・短整数型・整数型・長整数型
-		// 	・単精度浮動小数点数型・倍精度浮動小数点数型
-		//   	・文字型・文字列型
-		//	 	・ブーリアン型 
 
-		//クラス変数として宣言
 
 
 
@@ -95,7 +97,7 @@ public class curriculum1_4 {
 		// 0.105                      10.5割る100をする
 		System.out.println(aDouble / 100);
 		// -90                        10引く100をする
-		System.out.println(aByte - aInt);
+		System.out.println(aByte - aShort);
 
 
 
