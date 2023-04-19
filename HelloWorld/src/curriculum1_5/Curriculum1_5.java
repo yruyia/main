@@ -40,8 +40,6 @@ public class Curriculum1_5 {
 		System.out.println("身長は" + height + "cmです");
 		// 「体重は62.2kgです」
 		System.out.println("体重は" + weight + "kgです");
-		//sushi変数に代入。
-		Sushi sushi = new Sushi();
 
 		// 「好きな食べ物は寿司です」
 		System.out.println("好きな食べ物は" + s.like + "です");
