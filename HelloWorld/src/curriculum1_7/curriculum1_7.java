@@ -59,10 +59,6 @@ public class curriculum1_7 {
 				
 				//int型の変数を出力
 				System.out.println(kazu);
-				
-				
 			}
-		
-
 	}
 
