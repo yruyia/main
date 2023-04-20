@@ -18,7 +18,7 @@ public class curriculum1_12 {
 							・
 						100は偶数です
 	*/
-		
+		aa
 		
 	}
 
