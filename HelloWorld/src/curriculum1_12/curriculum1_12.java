@@ -18,8 +18,31 @@ public class curriculum1_12 {
 							・
 						100は偶数です
 	*/
-		aa
-		
+		//iに1を代入
+			int i = 1;
+			
+			//iが100以下の場合
+			while (i <= 100) {
+				
+				//iを表示
+			    System.out.print(i);
+			    
+			    //iが偶数の時
+			    if (i % 2 == 0) { 
+			    	
+			    	//iは偶数ですを表示
+			        System.out.println("は偶数です");
+			        
+			        //iが偶数でないとき
+			    } else { 
+			    	
+			    	//iは奇数ですを表示
+			        System.out.println("は奇数です"); 
+			    }
+			    
+			    //iに1を足す
+			    i++; 
+			    
+			}
+		}
 	}
-
-}
