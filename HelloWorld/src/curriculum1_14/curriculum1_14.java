@@ -3,6 +3,7 @@ package curriculum1_14;
 public class curriculum1_14 {
 
 	public static void main(String[] args) {
+		
 		// TODO 自動生成されたメソッド・スタブ
 //		string型の配列を作成し、アルファベットa～jまでを格納してください。
 //		brake文を使用し、a～dまで表示してください。
@@ -41,7 +42,7 @@ public class curriculum1_14 {
 	        System.out.println(abc[i]);
 	    }
 	    
-	    //改行
+	    // 改行
 	    System.out.println();
 
 	    // abcの要素の数だけiに1を足していく
@@ -54,7 +55,7 @@ public class curriculum1_14 {
 	            continue;
 	        }
 	        
-	        //abcを表示
+	        // abcを表示
 	        System.out.println(abc[i]);
             
         }
