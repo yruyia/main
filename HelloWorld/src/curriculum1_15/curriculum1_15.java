@@ -48,9 +48,9 @@ public class curriculum1_15 {
 		}
 
 		// intをdoubleに変換し教科ごとの平均点を算出
-		double avgKokugo = (double) sumKokugo / test.length;
-		double avgSugaku = (double) sumSugaku / test.length;
-		double avgEigo = (double) sumEigo / test.length;
+		int avgKokugo = sumKokugo / test.length;
+		int avgSugaku = sumSugaku / test.length;
+		int avgEigo = sumEigo / test.length;
 
 		// 結果を出力
 		System.out.println("国語の平均点は" + avgKokugo + "点です。");
