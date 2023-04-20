@@ -47,6 +47,7 @@ public class curriculum1_11 {
 			  
 			  //(変数)月は31日です。を表示
 		    System.out.println(month + "月は31日です。");
+		    
 		}
 	}
 }
