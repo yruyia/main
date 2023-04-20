@@ -17,11 +17,15 @@ public class curriculum1_10 {
 							・
 							21
 							*/
+		//変数iに1を代入
 		int i = 1;
-		for(i = 1; i < 21; i+=2){
-			System.out.println(i);
-		}
 		
+		//変数iに2ずつ足す処理を10回繰り返す。
+		for(i = 1; i < 21; i+=2){
+			
+			//3から表示する
+			System.out.println(i + 2);
+			
+		}
 	}
-
 }
