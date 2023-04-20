@@ -17,7 +17,7 @@ public class curriculum1_15 {
 					  英語の平均点は○○点です。
 		*/
 		// 配列int test[][]に成績を格納
-		int[][] test = { 
+		int test[][] = { 
 				{ 64, 73, 69 },
 				{ 58, 81, 75 },
 				{ 86, 68, 79 },
