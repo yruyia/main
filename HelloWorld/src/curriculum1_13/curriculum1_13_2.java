@@ -22,8 +22,7 @@ public class curriculum1_13_2 {
 
         // ②参照型配列bを作成し、3を表示してください。
 		// 参照型配列bの作成
-        int[] b;
-        b = a;
+        int[] b = a;
         
         // 3の表示
         System.out.println(b[2]);
