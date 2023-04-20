@@ -33,7 +33,7 @@ public class curriculum1_14 {
 	    	// abcがeの時
 	        if (abc[i].equals("e")) {
 	        	
-	        	// ループを抜ける
+	        	// 繰り返し処理を終了
 	            break;
 	        }
 	        
