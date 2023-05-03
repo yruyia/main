@@ -22,52 +22,20 @@ public class Curriculum1_22_2 {
 		// 1行目の初期値の設定
 		this.aisatu = "こんにちは！ここは日本です！";
 
-		//2行目の初期値の設定
+		// 2行目の初期値の設定
 		this.azi = "この寿司はうまい";
 
 		// 3行目の初期値の設定
 		this.shurui = "寿司は和食です";
 
-		// 値がnullでなかったら
-		if (this.aisatu != null) {
+		// this.aisatuを表示
+		System.out.println(this.aisatu);
 
-			// this.aisatuを表示
-			System.out.println(this.aisatu);
+		// this.aziを表示
+		System.out.println(this.azi);
 
-			// そうでなかったら
-		} else {
-
-			// this.aisatu is nullを表示
-			System.out.println("this.aisatu is null");
-		}
-
-		// 値がnullでなかったら
-		if (this.azi != null) {
-
-			// this.aziを表示
-			System.out.println(this.azi);
-
-			// そうでなかったら
-		} else {
-
-			// this.azi is nullを表示
-			System.out.println("this.azi is null");
-
-		}
-
-		// 値がnullでなかったら
-		if (this.azi != null) {
-
-			// this.shuruiを表示
-			System.out.println(this.shurui);
-
-			// そうでなかったら
-		} else {
-
-			// this.shurui is nullを表示
-			System.out.println("this.shurui is null");
-
-		}
+		// this.shuruiを表示
+		System.out.println(this.shurui);
 
 		// カレンダーオブジェクトの生成
 		Calendar cl = Calendar.getInstance();
