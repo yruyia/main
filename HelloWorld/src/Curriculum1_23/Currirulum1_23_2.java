@@ -2,7 +2,7 @@ package Curriculum1_23;
 
 public class Currirulum1_23_2 {
 
-	// インスタンス生成
+	// インスタンスの生成
 	private String name;
 
 	// インスタンス生成

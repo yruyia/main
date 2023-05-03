@@ -3,7 +3,6 @@ package Curriculum1_23;
 public class Curriculum1_23 {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		/*
 		
 		下記がコンソールに出力されるように作成してください
