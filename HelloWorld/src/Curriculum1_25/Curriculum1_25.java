@@ -100,7 +100,6 @@ public class Curriculum1_25 {
 
 		// ゲッターでdefenseを取得しコンソールに出力
 		System.out.println("防御力：" + yusha.getDefense());
-
 		
 		// 改行
 		System.out.println();
