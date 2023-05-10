@@ -98,21 +98,25 @@ public class Curriculum27 {
 
 				// パンダの場合
 			case "パンダ":
+
 				// アイルロポダ・メラノレウカを代入
 				scientificName = "アイルロポダ・メラノレウカ";
 
 				// チンパンジーの場合
 			case "チンパンジー":
+
 				// パン・トゥログロディテスを代入
 				scientificName = "パン・トゥログロディテス";
 
 				// シマウマの場合
 			case "シマウマ":
+
 				// チャップマンシマウマを代入
 				scientificName = "チャップマンシマウマ";
 
 				// インコの場合
 			case "インコ":
+
 				// 不明を代入
 				scientificName = "不明";
 
