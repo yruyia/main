@@ -2,19 +2,19 @@ package Curriculum1_25_2;
 
 public class Curriculum1_25_1 {
 
-	// 変数宣言
+	// ステータスのhp
 	private int hp;
 
-	// 変数宣言
+	// ステータスのmp
 	private int mp;
 
-	// 変数宣言
+	// ステータスのattack
 	private int attack;
 
-	// 変数宣言
+	// ステータスのagility
 	private int agility;
 
-	// 変数宣言
+	// ステータスのdefense
 	private int defense;
 
 	// コンストラクタの定義

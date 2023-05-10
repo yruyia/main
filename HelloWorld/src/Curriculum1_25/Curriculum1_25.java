@@ -2,6 +2,8 @@ package Curriculum1_25;
 
 // Randomクラスのインポート
 import java.util.Random;
+// Scannerクラスをインポート
+import java.util.Scanner;
 
 // Curriculum1_25_2クラスのインポート
 import Curriculum1_25_2.Curriculum1_25_2;
@@ -33,6 +35,15 @@ public class Curriculum1_25 {
 		 
 		 */
 
+		// Scannerオブジェクトを作成
+		Scanner scanner = new Scanner(System.in);
+
+		// 入力した文字を受け取る
+		String name = scanner.nextLine();
+
+		// Scannerクラスを閉じる
+		scanner.close();
+
 		// Randomクラスのインスタンスを作成
 		Random random = new Random();
 
@@ -54,8 +65,20 @@ public class Curriculum1_25 {
 		// Curriculum1_25_2クラスのインスタンス生成しyusha変数に代入しステータスを引数で受け取る
 		Curriculum1_25_2 yusha = new Curriculum1_25_2(hp, mp, attack, agility, defense);
 
-		// nameを「名前」で初期化
-		String name = "「名前」";
+		// hpをセット
+		yusha.setHp(hp);
+
+		// mpをセット
+		yusha.setMp(mp);
+
+		// attackをセット
+		yusha.setAttack(attack);
+
+		// agilityをセット
+		yusha.setAgility(agility);
+
+		// defenseをセット
+		yusha.setDefense(defense);
 
 		// コンソールに出力
 		System.out.println("こんにちは " + name + " さん");
