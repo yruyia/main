@@ -17,7 +17,7 @@ public class Curriculum1_25_1 {
 	// ステータスのdefense
 	private int defense;
 
-	// コンストラクタの定義
+	// 5つの整数を引数で受けとるコンストラクタの定義
 	public Curriculum1_25_1(int hp, int mp, int attack, int agility, int defense) {
 
 		// コンストラクタが受け取ったhpの値をこのクラスのインスタンス変数であるhpに代入
@@ -37,7 +37,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// getterの定義
+	// hpを取得するgetterの定義
 	public int getHp() {
 
 		// hpを返す
@@ -45,7 +45,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// setterの定義
+	// hpを設定するsetterの定義
 	public void setHp(int hp) {
 
 		// このクラスで定義された「hp」に、引数として渡された値「hp」をセット
@@ -53,7 +53,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// getterの定義
+	// mpを取得するgetterの定義
 	public int getMp() {
 
 		// mpを返す
@@ -61,7 +61,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// setterの定義
+	// mpを設定するsetterの定義
 	public void setMp(int mp) {
 
 		// このクラスで定義された「mp」に、引数として渡された値「mp」をセット
@@ -69,7 +69,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// getterの定義
+	// attackを取得するgetterの定義
 	public int getAttack() {
 
 		// attackを返す
@@ -77,7 +77,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// setterの定義
+	// attackを設定するsetterの定義
 	public void setAttack(int attack) {
 
 		// このクラスで定義された「attack」に、引数として渡された値「attack」をセット
@@ -85,7 +85,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// getterの定義
+	// agilityを取得するgetterの定義
 	public int getAgility() {
 
 		// agilityを返す
@@ -93,7 +93,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// setterの定義
+	// agilityを設定するsetterの定義
 	public void setAgility(int agility) {
 
 		// このクラスで定義された「agility」に、引数として渡された値「agility」をセット
@@ -101,7 +101,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// getterの定義
+	// defenseを取得するgetterの定義
 	public int getDefense() {
 
 		// defenseを返す
@@ -109,7 +109,7 @@ public class Curriculum1_25_1 {
 
 	}
 
-	// setterの定義
+	// defenseを設定するsetterの定義
 	public void setDefense(int defense) {
 
 		// このクラスで定義された「defense」に、引数として渡された値「defense」をセット

@@ -80,25 +80,32 @@ public class Curriculum1_25 {
 		// defenseをセット
 		yusha.setDefense(defense);
 
-		// コンソールに出力
-		System.out.println("こんにちは " + name + " さん");
+		// コンソールに文字列とnameを出力
+		System.out.println("こんにちは 「" + name + "」 さん");
+		
+		// コンソールに文字列を出力
+		System.out.println("ステータス");
 
-		// ゲッターで取得しコンソールに出力
+		// ゲッターでhpを取得しコンソールに出力
 		System.out.println("HP：" + yusha.getHp());
 
-		// ゲッターで取得しコンソールに出力
+		// ゲッターでmpを取得しコンソールに出力
 		System.out.println("MP：" + yusha.getMp());
 
-		// ゲッターで取得しコンソールに出力
+		// ゲッターでattackを取得しコンソールに出力
 		System.out.println("攻撃力：" + yusha.getAttack());
 
-		// ゲッターで取得しコンソールに出力
+		// ゲッターでagilityを取得しコンソールに出力
 		System.out.println("素早さ：" + yusha.getAgility());
 
-		// ゲッターで取得しコンソールに出力
+		// ゲッターでdefenseを取得しコンソールに出力
 		System.out.println("防御力：" + yusha.getDefense());
 
-		// コンソールに出力
+		
+		// 改行
+		System.out.println();
+		
+		// コンソールに文字列を出力
 		System.out.println("さあ冒険に出かけよう！");
 
 	}
