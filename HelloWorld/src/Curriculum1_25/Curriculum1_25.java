@@ -47,20 +47,8 @@ public class Curriculum1_25 {
 		// Randomクラスのインスタンスを作成
 		Random random = new Random();
 
-		// hpを宣言し0~999までの乱数を代入
-		int hp = random.nextInt(1000);
-
-		// mpを宣言し0~999までの乱数を代入
-		int mp = random.nextInt(1000);
-
-		// attackを宣言し0~999までの乱数を代入
-		int attack = random.nextInt(1000);
-
-		// agilityを宣言し0~999までの乱数を代入
-		int agility = random.nextInt(1000);
-
-		// defenseを宣言し0~999までの乱数を代入
-		int defense = random.nextInt(1000);
+		// hp,mp,attack,agility,defenseを宣言し0~999までの乱数を代入
+		int hp = random.nextInt(1000), mp = random.nextInt(1000), attack = random.nextInt(1000), agility = random.nextInt(1000), defense = random.nextInt(1000);
 
 		// Curriculum1_25_2クラスのインスタンス生成しyusha変数に代入しステータスを引数で受け取る
 		Curriculum1_25_2 yusha = new Curriculum1_25_2(hp, mp, attack, agility, defense);

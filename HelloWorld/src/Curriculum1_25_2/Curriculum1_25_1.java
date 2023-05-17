@@ -2,20 +2,8 @@ package Curriculum1_25_2;
 
 public class Curriculum1_25_1 {
 
-	// ステータスのhp
-	private int hp;
-
-	// ステータスのmp
-	private int mp;
-
-	// ステータスのattack
-	private int attack;
-
-	// ステータスのagility
-	private int agility;
-
-	// ステータスのdefense
-	private int defense;
+	// ステータスのhp,mp,attack,agility,defense
+	private int hp, mp, attack, agility, defense;
 
 	// 5つの整数を引数で受けとるコンストラクタの定義
 	public Curriculum1_25_1(int hp, int mp, int attack, int agility, int defense) {
