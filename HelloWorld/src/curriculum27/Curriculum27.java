@@ -59,6 +59,9 @@ public class Curriculum27 {
 
 		// Scannerクラスを閉じる
 		scanner.close();
+		
+		// 改行
+		System.out.println();
 
 		// カンマで区切って配列に格納
 		String[] animals = input.split(",");
@@ -89,36 +92,54 @@ public class Curriculum27 {
 
 				// パンテラ レオを代入
 				scientificName = "パンテラ レオ";
-
+				
+				// switchi文を抜け出す
+				break;
+				
 				// ゾウの場合
 			case "ゾウ":
 
 				// ロキソドンタ・サイクロティスを代入
 				scientificName = "ロキソドンタ・サイクロティス";
+				
+				// switchi文を抜け出す
+				break;
 
 				// パンダの場合
 			case "パンダ":
 
 				// アイルロポダ・メラノレウカを代入
 				scientificName = "アイルロポダ・メラノレウカ";
+				
+				// switchi文を抜け出す
+				break;
 
 				// チンパンジーの場合
 			case "チンパンジー":
 
 				// パン・トゥログロディテスを代入
 				scientificName = "パン・トゥログロディテス";
+				
+				// switchi文を抜け出す
+				break;
 
 				// シマウマの場合
 			case "シマウマ":
 
 				// チャップマンシマウマを代入
 				scientificName = "チャップマンシマウマ";
+				
+				// switchi文を抜け出す
+				break;
 
 				// インコの場合
 			case "インコ":
 
 				// 不明を代入
 				scientificName = "不明";
+				
+				// switchi文を抜け出す
+				break;
 
 			}
 
