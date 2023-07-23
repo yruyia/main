@@ -111,7 +111,7 @@ public class Curriculum1_25_2 {
 
 	}
 
-	// 防御力を取得する為のゲッターメソッド
+	// 防御力を取得するゲッターメソッド
 	public int getDefense() {
 
 		// defenseを返す
