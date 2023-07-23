@@ -1,10 +1,9 @@
 package Curriculum1_25;
 
-// Randomクラスのインポート
-import java.util.Random;
 // Scannerクラスをインポート
 import java.util.Scanner;
 
+import Curriculum1_25_2.Curriculum1_25_1;
 // Curriculum1_25_2クラスのインポート
 import Curriculum1_25_2.Curriculum1_25_2;
 
@@ -13,7 +12,7 @@ public class Curriculum1_25 {
 	public static void main(String[] args) {
 
 		/*
-		 
+		
 		 名前を入力したら下記がコンソールに出力されるように作ってください
 			条件：数値は毎回変わるように作ってください
 			 	 サブクラスを使用してください
@@ -32,11 +31,14 @@ public class Curriculum1_25 {
 			防御力：24
 		
 			さあ冒険に出かけよう！
-		 
+		
 		 */
 
 		// Scannerオブジェクトを作成
 		Scanner scanner = new Scanner(System.in);
+
+		// コンソールに入力
+		System.out.print("名前を入力してください: ");
 
 		// 入力した文字を受け取る
 		String name = scanner.nextLine();
@@ -44,55 +46,32 @@ public class Curriculum1_25 {
 		// Scannerクラスを閉じる
 		scanner.close();
 
-		// Randomクラスのインスタンスを作成
-		Random random = new Random();
+		// Curriculum1_25_1クラスのインスタンスを作成し、ステータスを生成
+		Curriculum1_25_1 generator = new Curriculum1_25_1();
 
-		// hp,mp,attack,agility,defenseを宣言し0~999までの乱数を代入
-		int hp = random.nextInt(1000), mp = random.nextInt(1000), attack = random.nextInt(1000), agility = random.nextInt(1000), defense = random.nextInt(1000);
+		// ユーザーの入力した名前を格納
+		Curriculum1_25_2 Curriculum1_25_2 = generator.status(name);
 
-		// Curriculum1_25_2クラスのインスタンス生成しyusha変数に代入しステータスを引数で受け取る
-		Curriculum1_25_2 yusha = new Curriculum1_25_2(hp, mp, attack, agility, defense);
+		// nullでない場合ゲッターで取得し以下を表示
+		if (Curriculum1_25_2 != null) {
 
-		// hpをセット
-		yusha.setHp(hp);
+			System.out.println("こんにちは、" + Curriculum1_25_2.getName() + "さん");
 
-		// mpをセット
-		yusha.setMp(mp);
+			System.out.println("ステータス");
 
-		// attackをセット
-		yusha.setAttack(attack);
+			System.out.println("HP: " + Curriculum1_25_2.getHp());
 
-		// agilityをセット
-		yusha.setAgility(agility);
+			System.out.println("MP: " + Curriculum1_25_2.getMp());
 
-		// defenseをセット
-		yusha.setDefense(defense);
+			System.out.println("攻撃力: " + Curriculum1_25_2.getAttack());
 
-		// コンソールに文字列とnameを出力
-		System.out.println("こんにちは 「" + name + "」 さん");
-		
-		// コンソールに文字列を出力
-		System.out.println("ステータス");
+			System.out.println("素早さ: " + Curriculum1_25_2.getAgility());
 
-		// ゲッターでhpを取得しコンソールに出力
-		System.out.println("HP：" + yusha.getHp());
+			System.out.println("防御力: " + Curriculum1_25_2.getDefense());
 
-		// ゲッターでmpを取得しコンソールに出力
-		System.out.println("MP：" + yusha.getMp());
+		}
 
-		// ゲッターでattackを取得しコンソールに出力
-		System.out.println("攻撃力：" + yusha.getAttack());
-
-		// ゲッターでagilityを取得しコンソールに出力
-		System.out.println("素早さ：" + yusha.getAgility());
-
-		// ゲッターでdefenseを取得しコンソールに出力
-		System.out.println("防御力：" + yusha.getDefense());
-		
-		// 改行
-		System.out.println();
-		
-		// コンソールに文字列を出力
+		// コンソールに出力
 		System.out.println("さあ冒険に出かけよう！");
 
 	}
