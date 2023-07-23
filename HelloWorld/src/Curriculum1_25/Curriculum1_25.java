@@ -3,6 +3,7 @@ package Curriculum1_25;
 // Scannerクラスをインポート
 import java.util.Scanner;
 
+// Curriculum1_25_1クラスのインポート
 import Curriculum1_25_2.Curriculum1_25_1;
 // Curriculum1_25_2クラスのインポート
 import Curriculum1_25_2.Curriculum1_25_2;
