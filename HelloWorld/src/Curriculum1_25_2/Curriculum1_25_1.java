@@ -22,7 +22,7 @@ public class Curriculum1_25_1 {
 
 		int defense = random.nextInt(1000);
 
-		// Characterインスタンスを作成し、名前とステータスを設定
+		// Characterインスタンスを作成し,名前とステータスを設定
 		Curriculum1_25_2 Character = new Curriculum1_25_2(name, hp, mp, attack, agility, defense);
 
 		// 呼び出し元に返す
