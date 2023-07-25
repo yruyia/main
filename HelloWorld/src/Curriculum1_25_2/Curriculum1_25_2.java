@@ -30,6 +30,7 @@ public class Curriculum1_25_2 {
 		this.agility = agility;
 
 		this.defense = defense;
+
 	}
 
 	// 名前を取得するゲッターメソッド
@@ -37,7 +38,7 @@ public class Curriculum1_25_2 {
 
 		// nameを返す
 		return name;
-
+		
 	}
 
 	// 名前を設定するセッターメソッド
@@ -45,57 +46,58 @@ public class Curriculum1_25_2 {
 
 		// このクラスの変数に代入
 		this.name = name;
-
+		
 	}
 
-	// HPを取得するゲッターメソッド
+	// hpを取得するゲッターメソッド
 	public int getHp() {
 
 		// hpを返す
 		return hp;
-
+		
 	}
 
-	// HPを設定するセッターメソッド
+	// hpを設定するセッターメソッド
 	public void setHp(int hp) {
 
 		// このクラスの変数に代入
 		this.hp = hp;
-
+		
 	}
 
-	// MPを取得するゲッターメソッド
+	// mpを取得するゲッターメソッド
 	public int getMp() {
 
-		// MPを返す
+		// mpを返す
 		return mp;
-
+		
 	}
 
-	// MPを設定するセッターメソッド
+	// mpを設定するセッターメソッド
 	public void setMp(int mp) {
 
 		// このクラスの変数に代入
 		this.mp = mp;
-
+		
 	}
 
-	// 攻撃力を取得するゲッターメソッド
+	// attackを取得するゲッターメソッド
 	public int getAttack() {
 
 		// attackを返す
 		return attack;
+		
 	}
 
-	// 攻撃力を設定するセッターメソッド
+	// attackを設定するセッターメソッド
 	public void setAttack(int attack) {
 
 		// このクラスの変数に代入
 		this.attack = attack;
-
+		
 	}
 
-	// 素早さを取得するゲッターメソッド
+	// agilityを取得するゲッターメソッド
 	public int getAgility() {
 
 		// agilityを返す
@@ -103,27 +105,27 @@ public class Curriculum1_25_2 {
 
 	}
 
-	// 素早さを設定するセッターメソッド
+	// agilityを設定するセッターメソッド
 	public void setAgility(int agility) {
 
 		// このクラスの変数に代入
 		this.agility = agility;
-
+		
 	}
 
-	// 防御力を取得するゲッターメソッド
+	// defenseを取得するゲッターメソッド
 	public int getDefense() {
 
 		// defenseを返す
 		return defense;
-
+		
 	}
 
-	// 防御力を設定するセッターメソッド
+	// defenseを設定するセッターメソッド
 	public void setDefense(int defense) {
 
 		// このクラスの変数に代入
 		this.defense = defense;
-
+		
 	}
 }

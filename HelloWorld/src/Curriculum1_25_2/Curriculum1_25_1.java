@@ -3,10 +3,18 @@ package Curriculum1_25_2;
 // ランダムクラスのインポート
 import java.util.Random;
 
-public class Curriculum1_25_1 {
+// Curriculum1_25_2をCurriculum1_25_1に継承
+public class Curriculum1_25_1 extends Curriculum1_25_2 {
 
-	// statusメソッドの定義
-	public Curriculum1_25_2 status(String name) {
+	// コンストラクタの定義
+	public Curriculum1_25_1(String name, int hp, int mp, int attack, int agility, int defense) {
+
+		// スーパークラスのコンストラクタを呼び出す
+		super(name, hp, mp, attack, agility, defense);
+	}
+
+	// ランダムなステータスを生成するメソッドの定義
+	public static Curriculum1_25_1 generateRandomStatus(String name) {
 
 		// 乱数生成
 		Random random = new Random();
@@ -22,10 +30,7 @@ public class Curriculum1_25_1 {
 
 		int defense = random.nextInt(1000);
 
-		// Characterインスタンスを作成し,名前とステータスを設定
-		Curriculum1_25_2 Character = new Curriculum1_25_2(name, hp, mp, attack, agility, defense);
-
-		// 呼び出し元に返す
-		return Character;
+		// ステータスを持つインスタンスを生成し返す
+		return new Curriculum1_25_1(name, hp, mp, attack, agility, defense);
 	}
 }
