@@ -39,8 +39,26 @@ public class Curriculum1_25 {
 		// コンソールに出力
 		System.out.print("名前を入力してください: ");
 
-		// 入力した文字を受け取る
-		String name = scanner.nextLine();
+		// nameの宣言
+		String name;
+
+		// ループ開始
+        do {
+        	
+        	// 入力した内容をnameに格納
+        	name = scanner.nextLine();
+
+        	// nullか空文字列なら
+            if (name == null || name.trim().isEmpty()) {
+            	
+            	// コンソールに出力
+                System.out.println("名前を入力してください:");
+                
+            }
+            
+            // nameがnullか空文字列の場合は、ループを繰り返す
+        } while (name == null || name.trim().isEmpty());
+
 
 		// Scannerクラスを閉じる
 		scanner.close();
