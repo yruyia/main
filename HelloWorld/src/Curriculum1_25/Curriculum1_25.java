@@ -46,7 +46,7 @@ public class Curriculum1_25 {
 		scanner.close();
 
 		// Curriculum1_25_1クラスのメソッドを使ってランダムなステータスを生成
-		Curriculum1_25_1 chara = Curriculum1_25_1.generateRandomStatus(name);
+		Curriculum1_25_1 chara = Curriculum1_25_1.status(name);
 
 		// nullでない場合ゲッターで取得し以下を表示
 		if (chara != null) {

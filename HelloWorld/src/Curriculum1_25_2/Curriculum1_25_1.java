@@ -14,7 +14,7 @@ public class Curriculum1_25_1 extends Curriculum1_25_2 {
 	}
 
 	// ランダムなステータスを生成するメソッドの定義
-	public static Curriculum1_25_1 generateRandomStatus(String name) {
+	public static Curriculum1_25_1 status(String name) {
 
 		// 乱数生成
 		Random random = new Random();
