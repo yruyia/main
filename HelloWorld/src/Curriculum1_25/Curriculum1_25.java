@@ -40,7 +40,24 @@ public class Curriculum1_25 {
 		System.out.print("名前を入力してください: ");
 
 		// nameの宣言
-		String name = scanner.nextLine();
+		String name;
+
+		// ループ開始
+		do {
+
+			// 入力した内容をnameに格納
+			name = scanner.nextLine();
+
+			// nullか空文字列なら
+			if (name == null || name.trim().isEmpty()) {
+
+				// コンソールに出力
+				System.out.println("名前を入力してください:");
+
+			}
+
+			// nameがnullか空文字列の場合は、ループを繰り返す
+		} while (name == null || name.trim().isEmpty());
 
 		// Scannerクラスを閉じる
 		scanner.close();
@@ -65,14 +82,10 @@ public class Curriculum1_25 {
 
 			System.out.println("防御力: " + chara.getDefense());
 
-			// nullなら
-		}else {
-			
-			// コンソールに出力
-			System.out.println("名前を入力してください:");
 		}
 
 		// コンソールに出力
 		System.out.println("さあ冒険に出かけよう！");
+
 	}
 }
