@@ -2,7 +2,7 @@ package curriculum27;
 
 class Curriculum27_2 {
 
-	public void Curriculum27_2(String input) {
+	public void Curriculum27_2_1(String input) {
 
 		// 入力された文字列をコンマで分割してanimals配列に格納
 		String[] animals = input.split(",");

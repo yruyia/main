@@ -53,8 +53,26 @@ public class Curriculum27 {
 		// Scannerクラスをインポート
 		Scanner scanner = new Scanner(System.in);
 
-		// 入力した文字を受け取る
-		String input = scanner.nextLine();
+		// inputの宣言
+		String input;
+		
+		// ループ開始
+		do {
+
+			// 入力した内容をinputに格納
+			input = scanner.nextLine();
+
+			// nullか空文字列なら
+			if (input == null || input.trim().isEmpty()) {
+
+				// コンソールに出力
+				System.out.println("もう一度入力してください:");
+
+			}
+
+			// inputがnullか空文字列の場合は、ループを繰り返す
+		} while (input == null || input.trim().isEmpty());
+
 
 		// Scannerクラスを閉じる
 		scanner.close();
@@ -66,7 +84,7 @@ public class Curriculum27 {
 		Curriculum27_2 calcu = new Curriculum27_2();
 
 		// 入力された文字列を渡す
-		calcu.Curriculum27_2(input);
+		calcu.Curriculum27_2_1(input);
 
 	}
 }
