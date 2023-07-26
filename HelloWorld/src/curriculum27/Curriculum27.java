@@ -63,10 +63,10 @@ public class Curriculum27 {
 		System.out.println();
 
 		// curriculum27_2のインスタンス生成
-		curriculum27_2 calcu = new curriculum27_2();
+		Curriculum27_2 calcu = new Curriculum27_2();
 
 		// 入力された文字列を渡す
-		calcu.curriculum27_2(input);
+		calcu.Curriculum27_2(input);
 
 	}
 }
